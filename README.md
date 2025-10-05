@@ -3,7 +3,8 @@ The app contains the textbox that displays a toast message when the add button i
 # Concepts Used
 Data class - TodoItem is wireframed with the data class, functions like an enum, easy to manage the structure of an object and create/delete copies whenever needed<br>
 State - State is managed in order to preserve values when the screen rotates. rememberSaveable is used throughout the project to store and keep values<br>
-State Hoisting - TodoScreen is a stateful parent that holds the items as a list with the input text, then passes the data to stateless children TodoInputBar and TodoItemRow, which have lambdas inside of them (like clicking the checkbox) that notifies the parent to update the state of the TodoItemRow.
+State Hoisting - TodoScreen is a stateful parent that holds the items as a list with the input text, then passes the data to stateless children TodoInputBar and TodoItemRow, which have lambdas inside of them (like clicking the checkbox) that notifies the parent to update the state of the TodoItemRow.<br>
 <img width="328" height="734" alt="image" src="https://github.com/user-attachments/assets/4d3730d7-ca11-4349-82ff-ddb5874c32d5" />
+
 
 
